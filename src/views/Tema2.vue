@@ -7,13 +7,14 @@
         span 2
       h1(data-aos="fade-right") Evaluar alternativas de innovación 
 
-    .row.justify-content-center.align-items-center
-      .col-lg-8(data-aos="fade-right")
-        .cajon-b.color-primario.p-2
-          p.m-0.mb-4.mb-lg-0 Para determinar la factibilidad del plan de trabajo que contiene el detalle de la implementación de las alternativas de innovación seleccionadas, es necesario realizar un proceso de evaluación, la cual equivale a calificar los costos e impactos del plan de innovación por medio de un sistema de medición, teniendo en cuenta los indicadores estratégicos en la empresas, siendo los más comunes costos, beneficios, tasa de retorno de la inversión, entre otros que se presentan explicados en detalle a continuación:
-      .col-lg-4(data-aos="fade-left")
-        figure
-          img.img-t.mx-auto(src='@/assets/curso/tema2/img01.png', alt='')
+    .row.mb-5
+      .col-lg-12
+        figure(data-aos="fade-down")
+          img.img-t(src='@/assets/curso/tema2/img01.png')
+    .row.justify-content-center
+      .col-lg-10
+        .bg_20.p-4
+          p.m-0 Para determinar la factibilidad del plan de trabajo que contiene el detalle de la implementación de las alternativas de innovación seleccionadas, es necesario realizar un proceso de evaluación, la cual equivale a calificar los costos e impactos del plan de innovación por medio de un sistema de medición, teniendo en cuenta los indicadores estratégicos en la empresas, siendo los más comunes costos, beneficios, tasa de retorno de la inversión, entre otros que se presentan explicados en detalle a continuación:
 
     Separador 
 
@@ -29,63 +30,60 @@
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema2/img02.png', alt='')
 
-    .bg_1.p-2
-      .bg_3.p-2
-        .row.justify-content-center.mb-5
-          .col-lg-12
-            .bg_2.p-4.py-5.shadow-sm.p-3.bg-body-rounded
-              .row.justify-content-center
-                .col-lg-10
-                  LineaTiempoE.color-acento-contenido(data-aos="fade-down-right")
-                    .row(titulo="Sistemas según los elementos del costo")
-                      .col-lg-5.mb-4.mb-lg-0
-                        figure
-                          img(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')                    
-                      .col-lg-7
-                        p En el cual para un producto o servicio se debe calcular el costo fijo de la operación y posteriormente se le adicionan los costos variables, siendo:
-                        ul.lista-ul
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Costos fijos:</b> Son aquellos que se mantienen continuos, independientemente de si se utilizan o no. Algunos ejemplos son el arriendo de un lugar, el sueldo de una persona. 
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Costos variables:</b> Son aquellos valores económicos que cambian dependiendo del uso para la producción de un bien o servicio. Algunos ejemplos son las materias primas utilizadas para la elaboración de un producto innovador, las comisiones generadas por las ventas de una innovación comercial, entre otros.
+    .tarjeta.tarjeta--gris.p-4.mb-5.bg_21
+      LineaTiempoC.color-acento-contenido(text-small)(data-aos="fade-right")
+        .row.justify-content-lg-center.align-items-center(titulo="Sistemas según los elementos del costo")
+          .col-lg-3.col-md-10.col-10.mb-4.mb-lg-0
+            figure
+              img.img-t.m-auto(src='@/assets/curso/tema2/img03.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-10.col-10
+            p.text-bold Sistemas según los elementos del costo
+            p En el cual para un producto o servicio se debe calcular el costo fijo de la operación y posteriormente se le adicionan los costos variables, siendo:
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Costos fijos:</b> Son aquellos que se mantienen continuos, independientemente de si se utilizan o no. Algunos ejemplos son el arriendo de un lugar, el sueldo de una persona. 
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Costos variables:</b> Son aquellos valores económicos que cambian dependiendo del uso para la producción de un bien o servicio. Algunos ejemplos son las materias primas utilizadas para la elaboración de un producto innovador, las comisiones generadas por las ventas de una innovación comercial, entre otros.
+            
+        .row.justify-content-lg-center(titulo="Costos según la forma de concentración")
+          .col-lg-3.col-md-10.col-10.mb-4.mb-lg-0
+            figure
+              img.img-t.m-auto(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-10.col-10
+            p.text-bold Costos según la forma de concentración 
+            p Para lo cual se deben realizar el cálculo financiero de las variables y posteriormente se asocia a una orden de producción u orden de proceso, siendo:
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Costos por órdenes:</b> Se calculan los valores del costo para una determinada orden de producción, a la cual se le asociaron todos los costos y gastos. Ejemplo para determinar el costo se tomarán los valores del lote un pedido de 100 celulares, por medio de la sumatoria de todos los costos y gastos del proceso productivo del lote.
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Costos por proceso:</b> Se emplea cuando los costos se agrupan por un proceso específicos, ya que la fabricación de bienes o servicios es cambiante. Ejemplo el costeo para la producción de una bebida, con la cual se debe empacar diferentes productos. Es por ello que se costea todo el proceso y posteriormente se divide de forma general en toda la cantidad de productos generados.            
 
-                    .row(titulo="Costos según la forma de concentración")
-                      .col-lg-5.mb-4.mb-lg-0
-                        figure
-                          img(src='@/assets/curso/tema2/img04.png', alt='Texto que describa la imagen')                    
-                      .col-lg-7
-                        p Para lo cual se deben realizar el cálculo financiero de las variables y posteriormente se asocia a una orden de producción u orden de proceso, siendo:
-                        ul.lista-ul
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Costos por órdenes:</b> Se calculan los valores del costo para una determinada orden de producción, a la cual se le asociaron todos los costos y gastos. Ejemplo para determinar el costo se tomarán los valores del lote un pedido de 100 celulares, por medio de la sumatoria de todos los costos y gastos del proceso productivo del lote.
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Costos por proceso:</b> Se emplea cuando los costos se agrupan por un proceso específicos, ya que la fabricación de bienes o servicios es cambiante. Ejemplo el costeo para la producción de una bebida, con la cual se debe empacar diferentes productos. Es por ello que se costea todo el proceso y posteriormente se divide de forma general en toda la cantidad de productos generados.
-
-                    .row(titulo="Sistemas de costos según el momento de obtención")
-                      .col-lg-5.mb-4.mb-lg-0
-                        figure
-                          img(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')                    
-                      .col-lg-7
-                        p Su unidad de medida es el tiempo, con el cual se estima el valor individual, siendo. 
-                        ul.lista-ul
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Sistemas de costos históricos o resultantes:</b> Son aquellos que son consumidos para luego establecer el costo dependiendo qué insumos fueron utilizados en el periodo definido. Ejemplo durante un mes se cultivó y se recogió una cosecha de fruta, es por ello que el cálculo será sumar todos los costos y gasto del mes, para ser divididos por los productos cosechados.
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Sistemas de costos predeterminados:</b> En este sistema los costos se determinan según los consumos estimados. Estos costos se establecen antes de la producción, basada en futuros, tomando como base las cantidades a producir de acuerdo con el mercado. 
-                          li 
-                            i.lista-ul__vineta
-                            p.m-0 <b>Costos estándar:</b> Se guían por las experiencias, para perseguir un objetivo y establecer los precios en las ventas.
+        .row.justify-content-lg-center(titulo="Sistemas de costos según el momento de obtención")
+          .col-lg-3.col-md-10.col-10.mb-4.mb-lg-0
+            figure
+              img.img-t.m-auto(src='@/assets/curso/tema2/img05.png', alt='Texto que describa la imagen')
+          .col-lg-8.col-md-10.col-10
+            p.text-bold Sistemas de costos según el momento de obtención
+            p Su unidad de medida es el tiempo, con el cual se estima el valor individual, siendo. 
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Sistemas de costos históricos o resultantes:</b> Son aquellos que son consumidos para luego establecer el costo dependiendo qué insumos fueron utilizados en el periodo definido. Ejemplo durante un mes se cultivó y se recogió una cosecha de fruta, es por ello que el cálculo será sumar todos los costos y gasto del mes, para ser divididos por los productos cosechados.
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Sistemas de costos predeterminados:</b> En este sistema los costos se determinan según los consumos estimados. Estos costos se establecen antes de la producción, basada en futuros, tomando como base las cantidades a producir de acuerdo con el mercado. 
+              li 
+                i.lista-ul__vineta
+                p.m-0 <b>Costos estándar:</b> Se guían por las experiencias, para perseguir un objetivo y establecer los precios en las ventas.
 
     p.mb-5 Las empresas seleccionan el sistema de costos de acuerdo a la entidad y el tipo de innovación a aplicar, para lo cual se deberá analizar el tamaño de la producción, el personal, la infraestructura y recursos. Con estos datos se realiza el análisis que permita el control de los costos históricos, con los cuales se elaboran proyecciones para controlar en cada proceso los costos de producción que contribuyen en la implementación de un plan estratégico. El sistema de costos se buscará:
 
     .row.justify-content-center.mb-5
-        .col-lg-5(data-aos="fade-right")
+        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           ul.lista-ul--color.lista-ol--separador
             li 
               i.fas.fa-check-circle
@@ -118,8 +116,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.m-0.text-small Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Costeo e indicadores en la negociación verde: costos y presupuestos” para ampliar el concepto de Costos:
-              p.m-0.text-small Ecosistema de Recursos Educativos Digitales SENA (2021, 12 de noviembre). Costeo e indicadores en la negociación verde: costos y presupuestos. [Video]. Youtube.
+              p.m-0.text-bold Costeo e indicadores 
+              p.m-0 Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Costeo e indicadores en la negociación verde: costos y presupuestos” para ampliar el concepto de Costos:
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/QbWPEi9egeo" target="_blank")
                 span Ver video
@@ -156,25 +154,75 @@
       .col-lg-4(data-aos="fade-left")
         img.img-t.m-auto(src="@/assets/curso/tema2/img08.png")
 
-    p.mb-4 Adicionalmente el análisis de costo beneficio sirve para emprender o lanzar nuevos productos, ya que tiene una amplia visión para realizar inversiones y comprobar que los beneficios son los esperados. Gracias a esto se puede saber qué tan rentable es un proyecto. Para esto se debe tener en cuenta:  
+    p.mb-5 Adicionalmente el análisis de costo beneficio sirve para emprender o lanzar nuevos productos, ya que tiene una amplia visión para realizar inversiones y comprobar que los beneficios son los esperados. Gracias a esto se puede saber qué tan rentable es un proyecto. Para esto se debe tener en cuenta:  
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-12    
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 8
-          span <em>Beneficios del análisis del costo</em>
-        figure
-          img.img-t.mx-auto(src='@/assets/curso/tema2/img09.svg', alt='AvatarTop')  
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-12 
+        h4.text-center Beneficios del análisis del costo
+        
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10.col-xl-12.col-xxl-10            
+              p.text-center Identificación de los costos y beneficios relevantes en la implementación de la innovación. 
 
-    p.mb-4 Para este tipo de análisis de costos beneficio no existe un formato estándar para realizar el cálculo, ya que las estructuras varían dependiendo la situación, la industria, el tipo de innovación deseada y el beneficio esperado el cual puede estar representado en utilidades económicas, posicionamiento del mercado, desarrollo de nuevos productos, entre otros. Sin embargo, se sugiere que el análisis del costo beneficio para proyectos de innovación incluya los siguientes elementos: 
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Medición de los costos y de los beneficios del proyecto.
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
-      .col-lg-12    
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 9
-          span <em>Aspectos a considerar en el análisis del costo beneficio</em>
-        figure
-          img.img-t.mx-auto(src='@/assets/curso/tema2/img10.svg', alt='AvatarTop')  
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Comparación de los flujos de costos y beneficios procedentes durante el periodo de vida del proyecto.
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10.col-xl-12.col-xxl-10            
+              p.text-center Selección del proyecto innovación más adecuado de las propuestas y alternativas posibles. 
+
+    p.mb-5 Para este tipo de análisis de costos beneficio no existe un formato estándar para realizar el cálculo, ya que las estructuras varían dependiendo la situación, la industria, el tipo de innovación deseada y el beneficio esperado el cual puede estar representado en utilidades económicas, posicionamiento del mercado, desarrollo de nuevos productos, entre otros. Sin embargo, se sugiere que el análisis del costo beneficio para proyectos de innovación incluya los siguientes elementos: 
+
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-12 
+        h4.text-center Aspectos a considerar en el análisis del costo beneficio
+        
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10.col-xl-12.col-xxl-10            
+              p.text-center Establecer áreas y actividades para delinear los parámetros del análisis en los componentes de innovación. 
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Identificar los costes y beneficios para que puedan ser categorizados por el tipo de innovación y el sistema de costeo.
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Comparar los costes actuales o proyectados y los beneficios esperados u obtenidos, con el fin de analizar la viabilidad y continuidad en la propuesta de innovación.
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Se recomienda realizar un análisis de sensibilidad para predecir los resultados y comprobar la precisión frente a un conjunto de variables.
 
     .tarjeta.color-primario.p-4.mb-5(data-aos="fade-up")
       .row.justify-content-around.align-items-center
@@ -183,8 +231,8 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              p.m-0.text-small Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Sistema de costeo” para ampliar el concepto de análisis de costos:
-              p.m-0.text-small Ecosistema de Recursos Educativos Digitales SENA (2021, 6 de agosto). Sistema de costeo. [Video]. Youtube.
+              p.m-0.text-bold Sistema de costeo
+              p.m-0 Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Sistema de costeo” para ampliar el concepto de análisis de costos:
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=E7yMcPXQ7Ps" target="_blank")
                 span Ver video
@@ -227,8 +275,8 @@
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img12.png', alt='')
 
     .row.justify-content-center
-      .col-lg-10
-        p Otro método para calcular el costo anual equivalente es: 
+      .col-lg-12
+        p.text-center Otro método para calcular el costo anual equivalente es: 
 
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-down")
@@ -329,7 +377,7 @@
               figure
                 img.img-t.mx-auto(src='@/assets/curso/tema2/img16.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
           p Todos los proyectos implican inversión y recursos, así como oportunidades que pueden generar grandes resultados, por lo tanto, es necesario evaluarlo, para analizar si es factible y rentable. Es por esto que la Tasa Interna de Retorno es una de las mejores opciones para evaluar económicamente la innovación, gracias a que se basa en el flujo de caja de cada proyecto, con lo cual es posible una planificación financiera óptima debido a que mide la viabilidad del proyecto a ejecutar, evitando riesgos económicos que puedan presentarse. 
 
@@ -395,13 +443,38 @@
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema2/img18.png', alt='')
 
-    .row.justify-content-center.mb-5(data-aos="fade-down-right")
-      .col-lg-12    
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 10
-          span <em>Beneficios de contar con indicadores en procesos de innovación</em>
-        figure
-          img.img-t.mx-auto(src='@/assets/curso/tema2/img19.svg', alt='AvatarTop')
+    .row.justify-content-center(data-aos="fade-down")
+      .col-lg-12 
+        h4.text-center Beneficios de contar con indicadores en procesos de innovación
+
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img09.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10.col-xl-12.col-xxl-10            
+              p.text-center Previenen y detectan desviaciones del logro de los objetivos. 
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Genera alertas para evitar perder la dirección y que la organización continúe alineada al plan de innovación.
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Produce información que analiza el desempeño de las áreas de modo que los objetivos se cumplan.
+
+      .tarjeta-avatar.h_2
+        img.img-t.mx-auto(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
+        .tarjeta.color2
+          .row.justify-content-center.p-4
+            .col-lg-10            
+              p.text-center Permite la evaluación del desempeño con respecto a las metas, objetivos y responsabilidades de cada miembro de la empresa.
 
     p.mb-4 Existen múltiples indicadores y formas de medición, las cuales varían de acuerdo al tipo de sector y proyecto de innovación, sin embargo, se identifican los principales tipos de indicadores y los encontrarás en el siguiente recurso:
 
@@ -478,11 +551,11 @@
 
     .bg_17      
       .row.justify-content-center.mb-4
-        .col-lg-5(data-aos="fade-right")
+        .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure
             img.img-t.m-auto(src="@/assets/curso/tema2/img18.svg")
         .col-lg-5(data-aos="fade-left")
-          p.mb-5 El enfoque y el uso de los indicadores dependerá de las áreas de innovación a implementar en cada una de las empresas, obteniendo en su gran mayoría los siguientes beneficios: 
+          p.mb-4.mb-lg-5.mb-xl-4.mb-xxl-5 El enfoque y el uso de los indicadores dependerá de las áreas de innovación a implementar en cada una de las empresas, obteniendo en su gran mayoría los siguientes beneficios: 
           ul.lista-ul--color
             li 
               i.fas.fa-check-circle

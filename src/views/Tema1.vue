@@ -264,13 +264,13 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 1.2 Eficiencias del proceso
         
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8(data-aos="fade-right") 
-        .cajon-b.color-secundario.p-2.mb-5
+    .row.justify-content-center.align-items-center
+      .col-lg-8.mb-4.mb-lg-0.order-last.order-lg-first(data-aos="fade-right") 
+        .cajon-b.color-secundario.p-2
           p Es la herramienta estratégica que permite a las entidades, evaluar y monitorear el desempeño de planes, procesos y programas. Las actividades de innovación son orientadas hacia la eficiencia en producción de bienes o servicios, para de este modo diferenciar y comercializar los productos. Los cambios en los métodos organizativos permiten que la calidad y la eficiencia del sistema logre reducir los costos y aumentar la demanda.    
           p La demanda de las empresas también puede aumentar por medio de las diferencias que pueden llegar a tener los productos, a lo cual llamamos innovación de producto, de este modo se abren nuevos mercados y aumenta el nivel de organización sobre los productos existentes, en los cuales se pueden implementar nuevas herramientas y métodos de marketing a lo cual llamaremos innovación de mercadeo.
           p Los criterios de medición cuentan con un buen manejo de las tecnologías, gracias a que estas permiten el conocimiento de la empresa, además de lograr que la innovación logre avances constantemente. Su cálculo contribuye en aspectos como: La evaluación del desempeño profesional, el establecimiento de objetivos empresariales efectivos, estudio de la competencia y para el ajuste de los recursos y plazos con los que cuenta la empresa. Una de las fórmulas utilizadas para esta medición es:
-      .col-lg-4(data-aos="fade-left")
+      .col-lg-4.mb-4.mb-lg-0.order-first.order-lg-last(data-aos="fade-left")
         figure
           img.img-t.mx-auto(src='@/assets/curso/tema1/img26.png', alt='')
 
@@ -323,15 +323,15 @@
 
       p.mb-5 El método de análisis e interpretación de los resultados de la eficiencia dependerá de la estructura organizativa de las empresas y cómo influyen las actividades de innovación en las políticas organizacionales. Ya que organizaciones con mayores niveles de competitividad en innovación buscarán cumplir siempre la eficiencia de los procesos y en caso de que no se cumplan se realizarán modelos y planes de mejora. En el siguiente video encuentra un ejemplo respecto a cómo se lleva a cabo el proceso de medición de la Información de programa Automatización de Procesos para la Eficiencia Organizacional.       
 
-      .tarjeta.color-primario.p-4.mb-5(data-aos="fade-up")
+      .tarjeta.color-primario.p-4.mb-4(data-aos="fade-up")
         .row.justify-content-around.align-items-center
           .col-3.col-sm-2.col-lg-1
             img(src="@/assets/curso/tema1/img29.svg")
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.m-0.text-small Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Información de programa Automatización de Procesos para la Eficiencia Organizacional” para ampliar el concepto de eficiencia: 
-                p.m-0.text-small Ecosistema de Recursos Educativos Digitales SENA (2022, 14 de marzo). Información del programa Automatización de Procesos para la Eficiencia Organizacional. [Video]. Youtube.
+                p.m-0.text-bold Procesos para la Eficiencia Organizacional
+                p.m-0 Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Información de programa Automatización de Procesos para la Eficiencia Organizacional” para ampliar el concepto de eficiencia:
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/QbWPEi9egeo" target="_blank")
                   span Ver video
@@ -600,10 +600,10 @@
     .bg_13
       p.mb-4 Las principales ventajas al establecer los modelos de mejora en las organizaciones pueden variar según el enfoque y sector empresarial. Pero de forma general se pueden establecer los siguientes beneficios:
 
-      .row.align-items-end.justify-content-md-center
-        .col-md-12.col-lg-5.mb-4(data-aos="fade-up")
+      .row.align-items-end.justify-content-md-center.mb-5
+        .col-md-12.col-lg-5.mb-5(data-aos="fade-up")
           figure
-            img.img-t.mx-auto(src='@/assets/curso/tema1/img52.png', alt='')
+            img.img-t.mx-auto(src='@/assets/curso/tema1/img52.svg', alt='')
         .col-md-10.col-lg-7(data-aos="fade-down")
           ol.lista-ol--cuadro.lista-ol--separador
             li 
@@ -661,8 +661,8 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                p.m-0.text-small Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Actividades del plan de mejora” para ampliar el concepto de plan de mejora:
-                p.m-0.text-small Ecosistema de Recursos Educativos Digitales SENA (2021, 18 de abril). Actividades del plan de mejora. [Video]. Youtube.
+                p.m-0.text-bold Plan de mejora
+                p.m-0 Se hace un llamado a la acción para que el aprendiz pueda observar el video llamado: “Actividades del plan de mejora” para ampliar el concepto de plan de mejora:
               .col-sm-auto
                 a.boton.color-acento-botones.texto-blanco(href="https://youtu.be/QbWPEi9egeo" target="_blank")
                   span Ver video       
@@ -702,32 +702,31 @@
 
       p.mb-4 Para establecer los criterios que permitan seleccionar los recursos y actividades, se sugiere tener en cuenta los siguientes elementos enfocándose a la innovación para la producción de bienes y servicios sostenibles, a continuación podrá identificarlos:
 
-      .row.justify-content-center
-        .col-lg-10
-          ImagenInfografica.color-secundario.mb-5(data-aos="fade-down-right")
-            template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/tema1/img55.svg', alt='Texto que describa la imagen')
+      .row.mb-4
+        .col-lg-4(data-aos="fade-left")
+          img.img-t.m-auto(src="@/assets/curso/tema1/img55.png")
+        .col-lg-4(data-aos="fade-right")
+          ul.lista-ul--color.lista-ol--separador
+            li 
+              i.fas.fa-check-circle
+              p.m-0 <b>Ser realistas:</b> Para conocer la posibilidad de cumplimiento.
+            li 
+              i.fas.fa-check-circle
+              p.mb-4 <b>Acotados:</b> Definiendo el tiempo y el grado de mejora.
+            li 
+              i.fas.fa-check-circle
+              p.m-0 <b>Flexibilidad:</b> Disposición para realizar modificaciones en situaciones imprevistas.
+            li 
 
-            .tarjeta.color3.p-3(x="7.2%" y="63.1%" numero="+")
-              .h4.mb-2 | Ser realistas
-              p Para conocer la posibilidad de cumplimiento.
-
-            .tarjeta.color3.p-3(x="23.1%" y="22%" numero="+")
-              .h4.mb-2 | Acotados
-              p Definiendo el tiempo y el grado de mejora.
-
-            .tarjeta.color3.p-3(x="49.9%" y="45.5%" numero="+")
-              .h4.mb-2 | Flexibilidad
-              p Disposición para realizar modificaciones en situaciones imprevistas.
-
-            .tarjeta.color3.p-3(x="76.6%" y="18.2%" numero="+")
-              .h4.mb-2 | Compresible
-              p Ante los cambios posibles que se puedan realizar durante la ejecución.
-
-            .tarjeta.color3.p-3(x="78.6%" y="68%" numero="+")
-              .h4.mb-2 | Obligatorio
-              p Debe existir un horizonte claro que permita lograr la meta, sin importar la variación de las actividades intermedias.
+        .col-lg-4(data-aos="fade-right")
+          ul.lista-ul--color.lista-ol--separador
+            li 
+              i.fas.fa-check-circle
+              p.m-0 <b>Compresible:</b> Ante los cambios posibles que se puedan realizar durante la ejecución.
+            li 
+              i.fas.fa-check-circle
+              p.m-0 <b>Obligatorio:</b> Debe existir un horizonte claro que permita lograr la meta, sin importar la variación de las actividades intermedias.
+            li 
 
     p.mb-5 En la actualidad existen múltiples herramientas para realizar la planeación de la innovación, en las cuales se incluyen procesos de formulación y seguimiento, una de ellas es la Hoja de ruta tecnológica que permite planear el cuándo, el cual, el por qué y el cómo se implementaran los procesos de innovación tecnológica, midiéndose en horizonte de tiempo a corto y a largo plazo, según sea la estrategia. Algunos características y beneficios en su implementación son:
 
