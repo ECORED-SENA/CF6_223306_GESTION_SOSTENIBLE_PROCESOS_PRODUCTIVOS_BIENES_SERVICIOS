@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Proponer y evaluar alternativas de innovación**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF6_223306_GESTION_SOSTENIBLE_PROCESOS_PRODUCTIVOS_BIENES_SERVICIOS/](https://ecored-sena.github.io/CF6_223306_GESTION_SOSTENIBLE_PROCESOS_PRODUCTIVOS_BIENES_SERVICIOS/)
 
 #
 
